@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/panel_IMG_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        />
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/list_linear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frame1_BTN_winner1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frame1_BTN_winner2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frame1_BTN_winner3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frame1_BTN_winner4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frame1_BTN_winner5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frame1_BTN_winner6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frame1_BTN_winner7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frame1_BTN_winner8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frame1_BTN_winner9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/frame1_BTN_winner10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:gravity="left"
+                android:textAlignment="gravity"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textColor="@color/white"
+                android:visibility="invisible"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
